@@ -1,1 +1,5 @@
-Color Me SASS Readme File
+ColorMeSASS
+===========
+
+Colour library for the css preprocessor SASS
+
