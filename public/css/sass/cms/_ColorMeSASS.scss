@@ -1,0 +1,14 @@
+/*!
+ *
+ * Color Me SASS v1.0
+ * Built and Designed by Richard Bray
+ *
+ */
+
+	@import "defaults";
+	@import "variations";
+	@import "bootstrap";
+
+ //If you are using Twitter Bootstrap use this instead of _variables.scss to avoid clashing
+
+	@import "bootstrap"; 
