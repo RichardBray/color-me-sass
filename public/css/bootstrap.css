@@ -4502,3 +4502,17 @@ a.label:hover, a.badge:hover {
  */
 body {
   background-color: #f2f3f4; }
+
+header {
+  margin-top: 90px;
+  text-align: center; }
+  header h1 {
+    font-size: 100px; }
+    header h1 i {
+      font-family: Georgia, "Times New Roman", Times, serif; }
+  header p {
+    font-size: 22px;
+    margin-top: 15px; }
+
+hr {
+  border: 1px solid #ddd; }
