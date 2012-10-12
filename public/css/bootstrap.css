@@ -4488,3 +4488,31 @@ a.label:hover, a.badge:hover {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/*
+ *
+ * Color Me SASS v1.0
+ * Built and Designed by Richard Bray
+ *
+ */
+/*
+ * Default Colours
+ */
+/*
+ * Variations
+ */
+body {
+  background-color: #f2f3f4; }
+
+header {
+  margin-top: 90px;
+  text-align: center; }
+  header h1 {
+    font-size: 100px; }
+    header h1 i {
+      font-family: Georgia, "Times New Roman", Times, serif; }
+  header p {
+    font-size: 22px;
+    margin-top: 15px; }
+
+hr {
+  border: 1px solid #ddd; }
