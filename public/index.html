@@ -12,6 +12,34 @@
 
 </head>
 <body>
+
+
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active">
+                <a href="./index.html">Default</a>
+              </li>
+              <li class="">
+                <a href="./getting-started.html">Variables</a>
+              </li>
+              <li class="">
+                <a href="./scaffolding.html">Bootstrap</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
 	<div class="container">
 
 <!-- Header
@@ -19,7 +47,15 @@
 
 		<header>
 			<h1>Color Me <i>SASS</i></h1><br>
-			<p>Colour library for the css preprocessor SASS</p>	
+			<p>Colour library for SASS and LESS</p>
+     		<div class="colourWheel">
+     			<div id="red" class="hold"><div class="colour"></div></div>
+     			<div id="orange" class="hold"><div class="colour"></div></div>
+     			<div id="yellow" class="hold"><div class="colour"></div></div>
+     		</div>
+			<br>
+			<button type="button" class="btn btn-large btn-primary">Download SASS</button> or 
+			<button type="button" class="btn btn-large btn-primary">Download LESS</button>
 		</header>
 
 		<hr>
@@ -28,12 +64,20 @@
     ================================================== -->
     	<div class="row">
     		<div class="span2">
-    			Something
     		<ul class="nav nav-list bs-docs-sidenav affix">
           		<li><a href="#reds"><i class="icon-chevron-right"></i>Reds</a></li>
           		<li><a href="#peaches"><i class="icon-chevron-right"></i>Peaches</a></li>
           		<li><a href="#tans"><i class="icon-chevron-right"></i>Tans</a></li>
           		<li><a href="#oranges"><i class="icon-chevron-right"></i>Oranges</a></li>
+          		<li><a href="#ambers"><i class="icon-chevron-right"></i>Ambers</a></li>
+          		<li><a href="#yellows"><i class="icon-chevron-right"></i>Yellows</a></li>
+          		<li><a href="#limes"><i class="icon-chevron-right"></i>Limes</a></li>
+          		<li><a href="#greens"><i class="icon-chevron-right"></i>Greens</a></li>
+          		<li><a href="#turquoises"><i class="icon-chevron-right"></i>Turquoises</a></li>
+          		<li><a href="#blues"><i class="icon-chevron-right"></i>Blues</a></li>
+          		<li><a href="#purples"><i class="icon-chevron-right"></i>Purples</a></li>
+          		<li><a href="#pinks"><i class="icon-chevron-right"></i>Pinks</a></li>
+          		<li><a href="#browns"><i class="icon-chevron-right"></i>Browns</a></li>
         	</ul>
     		</div>
     		<div class="span10">
@@ -707,11 +751,137 @@
 						<td>$purpleBrighter</td>
 						<td>@purpleBrighter</td>
 						<td>#AD5CFF</td>
-					</tr>																										
+					</tr>																	
+<!-- Pinks
+    ================================================== -->	
+
+					<tr>
+						<td id="pinks" colspan="4"><b>Pinks</b></td>
+					</tr>					
+					<tr>
+						<td style="background-color:#FF33CC;">&nbsp;</td>
+						<td>$pink</td>
+						<td>@pink</td>
+						<td>#FF33CC</td>
+					</tr>
+					<tr>
+						<td style="background-color:#B2248F">&nbsp;</td>
+						<td>$pinkDark</td>
+						<td>@pinkDark</td>
+						<td>#B2248F</td>
+					</tr>
+					<tr>
+						<td style="background-color:#661452">&nbsp;</td>
+						<td>$pinkDarker</td>
+						<td>@pinkDarker</td>
+						<td>#661452</td>
+					</tr>
+					<tr>
+						<td style="background-color:#FF5CD6">&nbsp;</td>
+						<td>$pinkLight</td>
+						<td>@pinkLight</td>
+						<td>#FF5CD6</td>
+					</tr>
+					<tr>
+						<td style="background-color:#FF85E0">&nbsp;</td>
+						<td>$pinkLighter</td>
+						<td>@pinkLighter</td>
+						<td>#FF85E0</td>
+					</tr>
+					<tr>
+						<td style="background-color:#CC3399">&nbsp;</td>
+						<td>$pinkDull</td>
+						<td>@pinkDull</td>
+						<td>#CC3399</td>
+					</tr>
+					<tr>
+						<td style="background-color:#993366">&nbsp;</td>
+						<td>$pinkDuller</td>
+						<td>@pinkDuller</td>
+						<td>#993366</td>
+					</tr>
+					<tr>
+						<td style="background-color:#FF66CC">&nbsp;</td>
+						<td>$pinkBright</td>
+						<td>@pinkBright</td>
+						<td>#FF66CC</td>
+					</tr>
+					<tr>
+						<td style="background-color:#FF99CC">&nbsp;</td>
+						<td>$pinkBrighter</td>
+						<td>@pinkBrighter</td>
+						<td>#FF99CC</td>
+					</tr>
+
+<!-- Browns
+    ================================================== -->	
+
+					<tr>
+						<td id="browns" colspan="4"><b>Browns</b></td>
+					</tr>					
+					<tr>
+						<td style="background-color:#663300;">&nbsp;</td>
+						<td>$brown</td>
+						<td>@brown</td>
+						<td>#663300</td>
+					</tr>
+					<tr>
+						<td style="background-color:#472400">&nbsp;</td>
+						<td>$brownDark</td>
+						<td>@brownDark</td>
+						<td>#472400</td>
+					</tr>
+					<tr>
+						<td style="background-color:#331A00">&nbsp;</td>
+						<td>$brownDarker</td>
+						<td>@brownDarker</td>
+						<td>#331A00</td>
+					</tr>
+					<tr>
+						<td style="background-color:#754719">&nbsp;</td>
+						<td>$brownLight</td>
+						<td>@brownLight</td>
+						<td>#754719</td>
+					</tr>
+					<tr>
+						<td style="background-color:#855C33">&nbsp;</td>
+						<td>$brownLighter</td>
+						<td>@brownLighter</td>
+						<td>#855C33</td>
+					</tr>
+					<tr>
+						<td style="background-color:#664728">&nbsp;</td>
+						<td>$brownDull</td>
+						<td>@brownDull</td>
+						<td>#664728</td>
+					</tr>
+					<tr>
+						<td style="background-color:#5E4C3A">&nbsp;</td>
+						<td>$brownDuller</td>
+						<td>@brownDuller</td>
+						<td>#5E4C3A</td>
+					</tr>
+					<tr>
+						<td style="background-color:#993300">&nbsp;</td>
+						<td>$brownBright</td>
+						<td>@brownBright</td>
+						<td>#993300</td>
+					</tr>
+					<tr>
+						<td style="background-color:#A34719">&nbsp;</td>
+						<td>$brownBrighter</td>
+						<td>@brownBrighter</td>
+						<td>#A34719</td>
+					</tr>
+
 				</table>			
 			</div>
 		</div>
 
+		<footer>
+			<hr>
+			Project by Richard Bray
+		</footer>
 	</div>
 <!-- javascripts
     ================================================= -->

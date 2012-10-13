@@ -4461,9 +4461,6 @@ a.label:hover, a.badge:hover {
 .invisible {
   visibility: hidden; }
 
-.affix {
-  position: fixed; }
-
 .clearfix {
   *zoom: 1; }
   .clearfix:before, .clearfix:after {
@@ -4504,7 +4501,7 @@ body {
   background-color: #f2f3f4; }
 
 header {
-  margin-top: 90px;
+  margin-top: 130px;
   text-align: center; }
   header h1 {
     font-size: 100px; }
@@ -4516,3 +4513,78 @@ header {
 
 hr {
   border: 1px solid #ddd; }
+
+.bs-docs-sidenav {
+  width: 140px;
+  margin-left: -10px; }
+  .bs-docs-sidenav li a {
+    display: block;
+    color: #333333;
+    margin: 0 0 -1px;
+    padding: 8px 14px;
+    border: 1px solid #E5E5E5; }
+    .bs-docs-sidenav li a i {
+      float: right;
+      opacity: 0.5; }
+
+.colourWheel {
+  background-color: grey;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px; }
+
+.colour {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  clip: rect(0px, 50px, 100px, 0px); }
+
+.hold {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  clip: rect(0px, 100px, 100px, 50px); }
+
+#red .colour {
+  background-color: #9d261d;
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
+  transform: rotate(50deg); }
+
+#orange {
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
+  transform: rotate(50deg); }
+
+#orange .colour {
+  background-color: #f89406;
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
+  transform: rotate(50deg); }
+
+#yellow {
+  -webkit-transform: rotate(100deg);
+  -moz-transform: rotate(100deg);
+  -ms-transform: rotate(100deg);
+  -o-transform: rotate(100deg);
+  transform: rotate(100deg); }
+
+#yellow .colour {
+  background-color: #ffc40d;
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
+  transform: rotate(50deg); }

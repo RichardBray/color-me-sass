@@ -5,7 +5,7 @@ body{
 }
 
 header{
-	margin-top:90px;
+	margin-top:130px;
 	text-align:center;
 	h1{
 		font-size:100px;
@@ -22,3 +22,71 @@ header{
 hr{
 	border: 1px solid #ddd;
 }
+
+// Sidebar
+// --------------------------------------------------
+
+.bs-docs-sidenav {
+	width: 140px;
+	margin-left: -10px;
+	li{
+		a{
+			display: block;
+			color:$grayDark;
+			margin: 0 0 -1px;
+			padding: 8px 14px;
+			border: 1px solid #E5E5E5;
+			i{
+				float:right;
+				opacity:0.5;
+			}
+		}
+	}
+}
+
+// Colour Wheel
+// --------------------------------------------------
+
+ .colourWheel {
+      background-color: grey;
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      @include border-radius(50px); 
+ }
+
+     .colour {
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		@include border-radius(50px);
+		clip: rect(0px, 50px, 100px, 0px);
+     }
+     .hold {
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		clip: rect(0px, 100px, 100px, 50px);
+     }
+
+     #red .colour {
+		background-color: $red;
+		@include rotate(50deg);
+     }
+
+     #orange {
+      	@include rotate(50deg);
+     }
+
+     #orange .colour {
+		background-color: $orange;
+		@include rotate(50deg);
+     }
+     #yellow {
+          @include rotate(100deg);
+     }
+
+     #yellow .colour {
+          background-color: $yellow;
+          @include rotate(50deg);
+     }
