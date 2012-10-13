@@ -4501,18 +4501,27 @@ body {
   background-color: #f2f3f4; }
 
 header {
-  margin-top: 130px;
+  margin-top: 120px;
   text-align: center; }
   header h1 {
-    font-size: 100px; }
+    font-size: 100px;
+    letter-spacing: -10px; }
     header h1 i {
-      font-family: Georgia, "Times New Roman", Times, serif; }
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-weight: 100;
+      opacity: 0.7; }
   header p {
-    font-size: 22px;
-    margin-top: 15px; }
+    font-size: 34px;
+    margin-top: 15px;
+    font-weight: bold;
+    opacity: 0.4; }
 
 hr {
   border: 1px solid #ddd; }
+
+.slogan {
+  margin-top: 12px;
+  margin-bottom: 20px; }
 
 .bs-docs-sidenav {
   width: 140px;
@@ -4528,8 +4537,10 @@ hr {
       opacity: 0.5; }
 
 .colourWheel {
-  background-color: grey;
-  position: absolute;
+  background-color: #7a43b6;
+  position: relative;
+  margin-top: -25px;
+  margin-left: -30px;
   width: 100px;
   height: 100px;
   -webkit-border-radius: 50px;
@@ -4552,7 +4563,7 @@ hr {
   clip: rect(0px, 100px, 100px, 50px); }
 
 #red .colour {
-  background-color: #9d261d;
+  background-color: #db4d4d;
   -webkit-transform: rotate(50deg);
   -moz-transform: rotate(50deg);
   -ms-transform: rotate(50deg);
@@ -4588,3 +4599,60 @@ hr {
   -ms-transform: rotate(50deg);
   -o-transform: rotate(50deg);
   transform: rotate(50deg); }
+
+#green {
+  -webkit-transform: rotate(150deg);
+  -moz-transform: rotate(150deg);
+  -ms-transform: rotate(150deg);
+  -o-transform: rotate(150deg);
+  transform: rotate(150deg); }
+
+#green .colour {
+  background-color: #46a546;
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
+  transform: rotate(50deg); }
+
+#blue {
+  -webkit-transform: rotate(200deg);
+  -moz-transform: rotate(200deg);
+  -ms-transform: rotate(200deg);
+  -o-transform: rotate(200deg);
+  transform: rotate(200deg); }
+
+#blue .colour {
+  background-color: #049cdb;
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
+  transform: rotate(50deg); }
+
+#indigo {
+  -webkit-transform: rotate(250deg);
+  -moz-transform: rotate(250deg);
+  -ms-transform: rotate(250deg);
+  -o-transform: rotate(250deg);
+  transform: rotate(250deg); }
+
+#indigo .colour {
+  background-color: #0064cd;
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
+  transform: rotate(50deg); }
+
+#center {
+  height: 50px;
+  width: 50px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background-color: #f2f3f4;
+  position: absolute;
+  z-index: 1;
+  margin-left: -4px;
+  margin-top: 1px; }

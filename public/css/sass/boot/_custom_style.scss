@@ -1,21 +1,26 @@
 
 
 body{
-  background-color:$whiteAntiflash
+  background-color:$whiteAntiflash;
 }
 
 header{
-	margin-top:130px;
+	margin-top:120px;
 	text-align:center;
 	h1{
 		font-size:100px;
+		letter-spacing: -10px;
 		i{
 			font-family: $serifFontFamily;
+			font-weight: 100;
+			opacity: 0.7;
 		}
 	}
 	p{
-		font-size: 22px;
+		font-size: 34px;
 		margin-top: 15px;
+		font-weight: bold;
+		opacity: 0.4;
 	}
 }
 
@@ -23,6 +28,10 @@ hr{
 	border: 1px solid #ddd;
 }
 
+.slogan{
+	margin-top:12px;
+	margin-bottom:20px;
+}
 // Sidebar
 // --------------------------------------------------
 
@@ -48,8 +57,10 @@ hr{
 // --------------------------------------------------
 
  .colourWheel {
-      background-color: grey;
-      position: absolute;
+      background-color: $purple;
+      position: relative;
+      margin-top: -25px;
+      margin-left: -30px;
       width: 100px;
       height: 100px;
       @include border-radius(50px); 
@@ -70,7 +81,7 @@ hr{
      }
 
      #red .colour {
-		background-color: $red;
+		background-color: $redLight;
 		@include rotate(50deg);
      }
 
@@ -89,4 +100,38 @@ hr{
      #yellow .colour {
           background-color: $yellow;
           @include rotate(50deg);
+     }
+     #green {
+          @include rotate(150deg);
+     }
+
+     #green .colour {
+          background-color: $green;
+          @include rotate(50deg);
+     }
+     #blue {
+          @include rotate(200deg);
+     }
+
+     #blue .colour {
+          background-color: $blue;
+          @include rotate(50deg);
+     }
+     #indigo {
+          @include rotate(250deg);
+     }
+
+     #indigo .colour {
+          background-color: $blueDark;
+          @include rotate(50deg);
+     }
+     #center{
+     	height:50px;
+     	width:50px;
+     	@include border-radius(30px);
+     	background-color: $whiteAntiflash;
+     	position: absolute;
+		z-index: 1;
+		margin-left: -4px;
+		margin-top: 1px;
      }
