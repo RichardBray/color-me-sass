@@ -5,8 +5,10 @@
     	<div class="row">
     		<div class="span2">
     		<ul class="nav nav-list bs-docs-sidenav affix">
-          		<li><a href="#reds"><i class="icon-chevron-right"></i>Whites</a></li>
-      
+          		<li><a href="#whites"><i class="icon-chevron-right"></i>Whites</a></li>
+      			<li><a href="#pinks"><i class="icon-chevron-right"></i>Pinks</a></li>
+      			<li><a href="#reds"><i class="icon-chevron-right"></i>Reds</a></li>
+      			<li><a href="#browns"><i class="icon-chevron-right"></i>Browns</a></li>
         	</ul>
     		</div>
     		<div class="span10">
@@ -68,8 +70,8 @@
 					</tr>
 					<tr>
 						<td style="background-color:#f0ead6">&nbsp;</td>
-						<td>$$whiteEggshell</td>
-						<td>@$whiteEggshell</td>
+						<td>$whiteEggshell</td>
+						<td>@whiteEggshell</td>
 						<td>#f0ead6</td>
 					</tr>
 					<tr>
@@ -113,7 +115,209 @@
 						<td>$whiteSmoke</td>
 						<td>@whiteSmoke</td>
 						<td>#f5f5f5</td>
-					</tr>											
+					</tr>
+
+<!-- Pinks
+    ================================================== -->	
+
+					<tr>
+						<td id="pinks" colspan="4"><b>Pinks</b></td>
+					</tr>
+					<tr>
+						<td style="background-color:#e52b50;">&nbsp;</td>
+						<td>$pinkAmaranth</td>
+						<td>@pinkAmaranth</td>
+						<td>#e52b50</td>
+					</tr>
+					<tr>
+						<td style="background-color:#fb607f">&nbsp;</td>
+						<td>$pinkBrink</td>
+						<td>@pinkBrink</td>
+						<td>#fb607f</td>
+					</tr>
+					<tr>
+						<td style="background-color:#960018">&nbsp;</td>
+						<td>$pinkCarmine</td>
+						<td>@pinkCarmine</td>
+						<td>#960018</td>
+					</tr>
+					<tr>
+						<td style="background-color:#ffa6c9">&nbsp;</td>
+						<td>$pinkCarnation</td>
+						<td>@pinkCarnation</td>
+						<td>#ffa6c9</td>
+					</tr>
+					<tr>
+						<td style="background-color:#de3163">&nbsp;</td>
+						<td>$pinkCerise</td>
+						<td>@pinkCerise</td>
+						<td>#de3163</td>
+					</tr>
+					<tr>
+						<td style="background-color:#f88379">&nbsp;</td>
+						<td>$pinkCoral</td>
+						<td>@pinkCoral</td>
+						<td>#f88379</td>
+					</tr>
+					<tr>
+						<td style="background-color:#ff1493">&nbsp;</td>
+						<td>$pinkDeep</td>
+						<td>@pinkDeep</td>
+						<td>#ff1493</td>
+					</tr>
+					<tr>
+						<td style="background-color:#b53389">&nbsp;</td>
+						<td>$pinkFandago</td>
+						<td>@pinkFandago</td>
+						<td>#b53389</td>
+					</tr>
+					<tr>
+						<td style="background-color:#f64a8a">&nbsp;</td>
+						<td>$pinkRose</td>
+						<td>@pinkRose</td>
+						<td>#f64a8a</td>
+					</tr>
+					<tr>
+						<td style="background-color:#ff00ff">&nbsp;</td>
+						<td>$pinkFuchsia</td>
+						<td>@pinkFuchsia</td>
+						<td>#ff00ff</td>
+					</tr>					
+					<tr>
+						<td style="background-color:#ff69b4">&nbsp;</td>
+						<td>$pinkHot</td>
+						<td>@pinkHot</td>
+						<td>#ff69b4</td>
+					</tr>	
+					<tr>
+						<td style="background-color:#ff0090">&nbsp;</td>
+						<td>$pinkMagenta</td>
+						<td>@pinkMagenta</td>
+						<td>#ff0090</td>
+					</tr>
+					<tr>
+						<td style="background-color:#e0115f">&nbsp;</td>
+						<td>$pinkRuby</td>
+						<td>@pinkRuby</td>
+						<td>#e0115f</td>
+					</tr>
+					<tr>
+						<td style="background-color:#ff91a4">&nbsp;</td>
+						<td>$pinkSalmon</td>
+						<td>@pinkSalmon</td>
+						<td>#ff91a4</td>
+					</tr>
+
+<!-- Reds
+    ================================================== -->	
+
+					<tr>
+						<td id="reds" colspan="4"><b>Reds</b></td>
+					</tr>
+					<tr>
+						<td style="background-color:#a52a2a;">&nbsp;</td>
+						<td>$redAuburn</td>
+						<td>@redAuburn</td>
+						<td>#a52a2a</td>
+					</tr>
+					<tr>
+						<td style="background-color:#9f1d35">&nbsp;</td>
+						<td>$redBurgundy</td>
+						<td>@redBurgundy</td>
+						<td>#9f1d35</td>
+					</tr>
+					<tr>
+						<td style="background-color:#9a1a00">&nbsp;</td>
+						<td>$redChestnut</td>
+						<td>@redChestnut</td>
+						<td>#9a1a00</td>
+					</tr>
+					<tr>
+						<td style="background-color:#dc143c">&nbsp;</td>
+						<td>$redCrimson</td>
+						<td>@redCrimson</td>
+						<td>#dc143c</td>
+					</tr>
+					<tr>
+						<td style="background-color:#b22222">&nbsp;</td>
+						<td>$redBrick</td>
+						<td>@redBrick</td>
+						<td>#b22222</td>
+					</tr>
+					<tr>
+						<td style="background-color:#ab4e52">&nbsp;</td>
+						<td>$redWood</td>
+						<td>@redWood</td>
+						<td>#ab4e52</td>
+					</tr>
+					<tr>
+						<td style="background-color:#b7410e">&nbsp;</td>
+						<td>$redRust</td>
+						<td>@redRust</td>
+						<td>#b7410e</td>
+					</tr>
+					<tr>
+						<td style="background-color:#722f37">&nbsp;</td>
+						<td>$redWine</td>
+						<td>@redWine</td>
+						<td>#722f37</td>
+					</tr>
+
+<!-- Browns
+    ================================================== -->	
+
+					<tr>
+						<td id="browns" colspan="4"><b>Browns</b></td>
+					</tr>
+					<tr>
+						<td style="background-color:#9f8170;">&nbsp;</td>
+						<td>$brownBeaver</td>
+						<td>@brownBeaver</td>
+						<td>#9f8170</td>
+					</tr>
+					<tr>
+						<td style="background-color:#9f1d35">&nbsp;</td>
+						<td>$redBurgundy</td>
+						<td>@redBurgundy</td>
+						<td>#9f1d35</td>
+					</tr>
+					<tr>
+						<td style="background-color:#9a1a00">&nbsp;</td>
+						<td>$redChestnut</td>
+						<td>@redChestnut</td>
+						<td>#9a1a00</td>
+					</tr>
+					<tr>
+						<td style="background-color:#dc143c">&nbsp;</td>
+						<td>$redCrimson</td>
+						<td>@redCrimson</td>
+						<td>#dc143c</td>
+					</tr>
+					<tr>
+						<td style="background-color:#b22222">&nbsp;</td>
+						<td>$redBrick</td>
+						<td>@redBrick</td>
+						<td>#b22222</td>
+					</tr>
+					<tr>
+						<td style="background-color:#ab4e52">&nbsp;</td>
+						<td>$redWood</td>
+						<td>@redWood</td>
+						<td>#ab4e52</td>
+					</tr>
+					<tr>
+						<td style="background-color:#b7410e">&nbsp;</td>
+						<td>$redRust</td>
+						<td>@redRust</td>
+						<td>#b7410e</td>
+					</tr>
+					<tr>
+						<td style="background-color:#722f37">&nbsp;</td>
+						<td>$redWine</td>
+						<td>@redWine</td>
+						<td>#722f37</td>
+					</tr>
+				</table>											
 			</div>
 		</div>
 
