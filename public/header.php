@@ -32,7 +32,7 @@
                 <a href="/public/bootstrap">Bootstrap</a>
               </li>
               <li class="">
-                <a href="">Usage</a>
+                <a href="/public/usage">Usage</a>
               </li>
             </ul>
           </div>
