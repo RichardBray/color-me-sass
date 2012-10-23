@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Color Me SASS - Colour library for the css preprocessor SASS</title>
-	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -25,14 +25,14 @@
           </button>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active">
+              <li class="">
                 <a href="/">Default</a>
               </li>
               <li class="">
-                <a href="/variables">Variables</a>
+                <a href="/public/bootsrtap">Bootstrap</a>
               </li>
               <li class="">
-                <a href="/bootstrap">Bootstrap</a>
+                <a href="">Usage</a>
               </li>
             </ul>
           </div>
@@ -65,9 +65,10 @@
 			<div class="row slogan">
 					<p>Colour library for SASS and LESS</p>
 			</div>
-			<div class="row">
-				<button type="button" class="btn btn-large btn-primary">Download SASS</button> or 
-				<button type="button" class="btn btn-large btn-primary">Download LESS</button>
+			<div class="row dl-links">
+				<a href="" class="btn btn-large btn-pink">Download for SASS</a> 
+				<a href="" class="btn btn-large btn-primary">Download for LESS</a>
+				<a href="https://github.com/RichardBray/ColorMeSASS" target="_blank" class="btn btn-large">View on Github</a>
 			</div>
 		</header>
 

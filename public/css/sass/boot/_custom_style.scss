@@ -1,11 +1,22 @@
 
+::-moz-selection {
+  color: #fff;
+  text-shadow: none;
+  background: #778da8;
+}
+
+::selection {
+  color: #fff;
+  text-shadow: none;
+  background: #778da8;
+}
 
 body{
   background-color:$whiteAntiflash;
 }
 
 header{
-	margin-top:120px;
+	margin-top:80px;
 	text-align:center;
 	h1{
 		font-size:100px;
@@ -26,12 +37,53 @@ header{
 
 hr{
 	border: 1px solid #ddd;
+  margin: 10px 0;
 }
 
 .slogan{
 	margin-top:12px;
 	margin-bottom:20px;
 }
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+  position:static;
+}
+
+.bs-docs-sidenav, .content {
+  margin-top:10px;
+}
+
+.btn{
+  border:none;
+  text-shadow:none;
+}
+
+.btn-pink{
+    @include gradient-vertical($pinkDark, $pinkDark);
+    color: $white;
+    @include transition(.3s);
+    &:hover{
+      @include gradient-vertical($pinkDarker, $pinkDarker);
+      color: $white;
+    }
+}
+
+.btn-primary{
+    @include gradient-vertical($blueDark, $blueDark);
+    @include transition(.3s);
+    &:hover{
+      @include gradient-vertical($blueDarker, $blueDarker);
+      color: $white;
+    }
+}
+
+.dl-links{
+  a{
+    margin-right:10px;
+    padding-bottom:10px;
+  }
+}
+
 // Sidebar
 // --------------------------------------------------
 

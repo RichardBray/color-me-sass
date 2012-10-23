@@ -20,7 +20,7 @@
           		<li><a href="#browns"><i class="icon-chevron-right"></i>Browns</a></li>
         	</ul>
     		</div>
-    		<div class="span10">
+    		<div class="span10 content">
 			    <table class="table table-bordered table-striped">
 					<tr>
 						<td class="span3">Colour</td>
@@ -88,6 +88,54 @@
 						<td>$redBrighter</td>
 						<td>@redBrighter</td>
 						<td>#FF6E6E</td>
+					</tr>
+					<tr>
+						<td style="background-color:#a52a2a;">&nbsp;</td>
+						<td>$redAuburn</td>
+						<td>@redAuburn</td>
+						<td>#a52a2a</td>
+					</tr>
+					<tr>
+						<td style="background-color:#9f1d35">&nbsp;</td>
+						<td>$redBurgundy</td>
+						<td>@redBurgundy</td>
+						<td>#9f1d35</td>
+					</tr>
+					<tr>
+						<td style="background-color:#9a1a00">&nbsp;</td>
+						<td>$redChestnut</td>
+						<td>@redChestnut</td>
+						<td>#9a1a00</td>
+					</tr>
+					<tr>
+						<td style="background-color:#dc143c">&nbsp;</td>
+						<td>$redCrimson</td>
+						<td>@redCrimson</td>
+						<td>#dc143c</td>
+					</tr>
+					<tr>
+						<td style="background-color:#b22222">&nbsp;</td>
+						<td>$redBrick</td>
+						<td>@redBrick</td>
+						<td>#b22222</td>
+					</tr>
+					<tr>
+						<td style="background-color:#ab4e52">&nbsp;</td>
+						<td>$redWood</td>
+						<td>@redWood</td>
+						<td>#ab4e52</td>
+					</tr>
+					<tr>
+						<td style="background-color:#b7410e">&nbsp;</td>
+						<td>$redRust</td>
+						<td>@redRust</td>
+						<td>#b7410e</td>
+					</tr>
+					<tr>
+						<td style="background-color:#722f37">&nbsp;</td>
+						<td>$redWine</td>
+						<td>@redWine</td>
+						<td>#722f37</td>
 					</tr>
 
 <!-- Peaches
@@ -388,6 +436,54 @@
 						<td>@yellowBrighter</td>
 						<td>#FFFF66</td>
 					</tr>
+					<tr>
+						<td style="background-color:#f0dc82">&nbsp;</td>
+						<td>$yellowBuff</td>
+						<td>@yellowBuff</td>
+						<td>#f0dc82</td>
+					</tr>
+					<tr>
+						<td style="background-color:#ffd700">&nbsp;</td>
+						<td>$yellowGold</td>
+						<td>@yellowGold</td>
+						<td>#ffd700</td>
+					</tr>
+					<tr>
+						<td style="background-color:#d4af37">&nbsp;</td>
+						<td>$yellowGoldmetal</td>
+						<td>@yellowGoldmetal</td>
+						<td>#d4af37</td>
+					</tr>
+					<tr>
+						<td style="background-color:#f8de7e">&nbsp;</td>
+						<td>$yellowJasmine</td>
+						<td>@yellowJasmine</td>
+						<td>#f8de7e</td>
+					</tr>
+					<tr>
+						<td style="background-color:#fbec5d">&nbsp;</td>
+						<td>$yellowMaize</td>
+						<td>@yellowMaize</td>
+						<td>#fbec5d</td>
+					</tr>
+					<tr>
+						<td style="background-color:#f4c430">&nbsp;</td>
+						<td>$yellowSaffron</td>
+						<td>@yellowSaffron</td>
+						<td>#f4c430</td>
+					</tr>
+					<tr>
+						<td style="background-color:#ffcc33">&nbsp;</td>
+						<td>$yellowSunglow</td>
+						<td>@yellowSunglow</td>
+						<td>#ffcc33</td>
+					</tr>
+					<tr>
+						<td style="background-color:#fdfc8f">&nbsp;</td>
+						<td>$yellowLight</td>
+						<td>@yellowLight</td>
+						<td>#fdfc8f</td>
+					</tr>
 <!-- Limes
     ================================================== -->	
 
@@ -508,6 +604,72 @@
 						<td>$greenBrighter</td>
 						<td>@greenBrighter</td>
 						<td>#99FF66</td>
+					</tr>
+					<tr>
+						<td style="background-color:#8db600">&nbsp;</td>
+						<td>$greenApple</td>
+						<td>@greenApple</td>
+						<td>#8db600</td>
+					</tr>
+					<tr>
+						<td style="background-color:#7ba05b">&nbsp;</td>
+						<td>$greenAsparagus</td>
+						<td>@greenAsparagus</td>
+						<td>#7ba05b</td>
+					</tr>
+					<tr>
+						<td style="background-color:#556b2f">&nbsp;</td>
+						<td>$greenOlive</td>
+						<td>@greenOlive</td>
+						<td>#556b2f</td>
+					</tr>
+					<tr>
+						<td style="background-color:#4f7942">&nbsp;</td>
+						<td>$greenFern</td>
+						<td>@greenFern</td>
+						<td>#4f7942</td>
+					</tr>
+					<tr>
+						<td style="background-color:#228b22">&nbsp;</td>
+						<td>$greenForest</td>
+						<td>@greenForest</td>
+						<td>#228b22</td>
+					</tr>
+					<tr>
+						<td style="background-color:#355e3b">&nbsp;</td>
+						<td>$greenHunter</td>
+						<td>@greenHunter</td>
+						<td>#355e3b</td>
+					</tr>
+					<tr>
+						<td style="background-color:#3eb489">&nbsp;</td>
+						<td>$greenMint</td>
+						<td>@greenMint</td>
+						<td>#3eb489</td>
+					</tr>
+					<tr>
+						<td style="background-color:#008000">&nbsp;</td>
+						<td>$greenOffice</td>
+						<td>@greenOffice</td>
+						<td>#008000</td>
+					</tr>
+					<tr>
+						<td style="background-color:#2e8b57">&nbsp;</td>
+						<td>$greenSea</td>
+						<td>@greenSea</td>
+						<td>#2e8b57</td>
+					</tr>
+					<tr>
+						<td style="background-color:#a7fc00">&nbsp;</td>
+						<td>$greenSpring</td>
+						<td>@greenSpring</td>
+						<td>#a7fc00</td>
+					</tr>
+					<tr>
+						<td style="background-color:#008080">&nbsp;</td>
+						<td>$greenTeal</td>
+						<td>@greenTeal</td>
+						<td>#008080</td>
 					</tr>
 
 <!-- Turquoise
@@ -631,6 +793,78 @@
 						<td>@blueBrighter</td>
 						<td>#70B8FF</td>
 					</tr>
+					<tr>
+						<td style="background-color:#5d8aa8">&nbsp;</td>
+						<td>$blueAirforce</td>
+						<td>@blueAirforce</td>
+						<td>#5d8aa8</td>
+					</tr>
+					<tr>
+						<td style="background-color:#007fff">&nbsp;</td>
+						<td>$blueAzure</td>
+						<td>@blueAzure</td>
+						<td>#007fff</td>
+					</tr>
+					<tr>
+						<td style="background-color:#89cff0">&nbsp;</td>
+						<td>$blueBaby</td>
+						<td>@blueBaby</td>
+						<td>#89cff0</td>
+					</tr>
+					<tr>
+						<td style="background-color:#318ce7">&nbsp;</td>
+						<td>$blueFrench</td>
+						<td>@blueFrench</td>
+						<td>#318ce7</td>
+					</tr>
+					<tr>
+						<td style="background-color:#b2ffff">&nbsp;</td>
+						<td>$blueCeleste</td>
+						<td>@blueCeleste</td>
+						<td>#b2ffff</td>
+					</tr>
+					<tr>
+						<td style="background-color:#75b2dd">&nbsp;</td>
+						<td>$blueColumbia</td>
+						<td>@blueColumbia</td>
+						<td>#75b2dd</td>
+					</tr>
+					<tr>
+						<td style="background-color:#73c2fb">&nbsp;</td>
+						<td>$blueSky</td>
+						<td>@blueSky</td>
+						<td>#73c2fb</td>
+					</tr>
+					<tr>
+						<td style="background-color:#191970">&nbsp;</td>
+						<td>$blueMidnight</td>
+						<td>@blueMidnight</td>
+						<td>#191970</td>
+					</tr>
+					<tr>
+						<td style="background-color:#000080">&nbsp;</td>
+						<td>$blueNavy</td>
+						<td>@blueNavy</td>
+						<td>#000080</td>
+					</tr>
+					<tr>
+						<td style="background-color:#4169e1">&nbsp;</td>
+						<td>$blueRoyal</td>
+						<td>@blueRoyal</td>
+						<td>#4169e1</td>
+					</tr>
+					<tr>
+						<td style="background-color:#0f52ba">&nbsp;</td>
+						<td>$blueSapphire</td>
+						<td>@blueSapphire</td>
+						<td>#0f52ba</td>
+					</tr>
+					<tr>
+						<td style="background-color:#4682b4">&nbsp;</td>
+						<td>$blueSteel</td>
+						<td>@blueSteel</td>
+						<td>#4682b4</td>
+					</tr>					
 
 <!-- Purples
     ================================================== -->	
@@ -691,7 +925,56 @@
 						<td>$purpleBrighter</td>
 						<td>@purpleBrighter</td>
 						<td>#AD5CFF</td>
-					</tr>																	
+					</tr>
+					<tr>
+						<td style="background-color:#9966cc">&nbsp;</td>
+						<td>$purpleAmethyst</td>
+						<td>@purpleAmethyst</td>
+						<td>#9966cc</td>
+					</tr>
+					<tr>
+						<td style="background-color:#de3163">&nbsp;</td>
+						<td>$purpleCerise</td>
+						<td>@purpleCerise</td>
+						<td>#de3163</td>
+					</tr>
+					<tr>
+						<td style="background-color:#b53389">&nbsp;</td>
+						<td>$purpleFandango</td>
+						<td>@purpleFandango</td>
+						<td>#b53389</td>
+					</tr>
+					<tr>
+						<td style="background-color:#df73ff">&nbsp;</td>
+						<td>$purpleHeliotrope</td>
+						<td>@purpleHeliotrope</td>
+						<td>#df73ff</td>
+					</tr>
+					<tr>
+						<td style="background-color:#b57edc">&nbsp;</td>
+						<td>$purpleLavendar</td>
+						<td>@purpleLavendar</td>
+						<td>#b57edc</td>
+					</tr>
+					<tr>
+						<td style="background-color:#ff0090">&nbsp;</td>
+						<td>$purpleMagenta</td>
+						<td>@purpleMagenta</td>
+						<td>#ff0090</td>
+					</tr>
+					<tr>
+						<td style="background-color:#da70d6">&nbsp;</td>
+						<td>$purpleOrchid</td>
+						<td>@purpleOrchid</td>
+						<td>#da70d6</td>
+					</tr>
+					<tr>
+						<td style="background-color:#8e4585">&nbsp;</td>
+						<td>$purplePlum</td>
+						<td>@purplePlum</td>
+						<td>#8e4585</td>
+					</tr>											
+
 <!-- Pinks
     ================================================== -->	
 
@@ -751,6 +1034,90 @@
 						<td>$pinkBrighter</td>
 						<td>@pinkBrighter</td>
 						<td>#FF99CC</td>
+					</tr>
+					<tr>
+						<td style="background-color:#e52b50;">&nbsp;</td>
+						<td>$pinkAmaranth</td>
+						<td>@pinkAmaranth</td>
+						<td>#e52b50</td>
+					</tr>
+					<tr>
+						<td style="background-color:#fb607f">&nbsp;</td>
+						<td>$pinkBrink</td>
+						<td>@pinkBrink</td>
+						<td>#fb607f</td>
+					</tr>
+					<tr>
+						<td style="background-color:#960018">&nbsp;</td>
+						<td>$pinkCarmine</td>
+						<td>@pinkCarmine</td>
+						<td>#960018</td>
+					</tr>
+					<tr>
+						<td style="background-color:#ffa6c9">&nbsp;</td>
+						<td>$pinkCarnation</td>
+						<td>@pinkCarnation</td>
+						<td>#ffa6c9</td>
+					</tr>
+					<tr>
+						<td style="background-color:#de3163">&nbsp;</td>
+						<td>$pinkCerise</td>
+						<td>@pinkCerise</td>
+						<td>#de3163</td>
+					</tr>
+					<tr>
+						<td style="background-color:#f88379">&nbsp;</td>
+						<td>$pinkCoral</td>
+						<td>@pinkCoral</td>
+						<td>#f88379</td>
+					</tr>
+					<tr>
+						<td style="background-color:#ff1493">&nbsp;</td>
+						<td>$pinkDeep</td>
+						<td>@pinkDeep</td>
+						<td>#ff1493</td>
+					</tr>
+					<tr>
+						<td style="background-color:#b53389">&nbsp;</td>
+						<td>$pinkFandago</td>
+						<td>@pinkFandago</td>
+						<td>#b53389</td>
+					</tr>
+					<tr>
+						<td style="background-color:#f64a8a">&nbsp;</td>
+						<td>$pinkRose</td>
+						<td>@pinkRose</td>
+						<td>#f64a8a</td>
+					</tr>
+					<tr>
+						<td style="background-color:#ff00ff">&nbsp;</td>
+						<td>$pinkFuchsia</td>
+						<td>@pinkFuchsia</td>
+						<td>#ff00ff</td>
+					</tr>					
+					<tr>
+						<td style="background-color:#ff69b4">&nbsp;</td>
+						<td>$pinkHot</td>
+						<td>@pinkHot</td>
+						<td>#ff69b4</td>
+					</tr>	
+					<tr>
+						<td style="background-color:#ff0090">&nbsp;</td>
+						<td>$pinkMagenta</td>
+						<td>@pinkMagenta</td>
+						<td>#ff0090</td>
+					</tr>
+					<tr>
+						<td style="background-color:#e0115f">&nbsp;</td>
+						<td>$pinkRuby</td>
+						<td>@pinkRuby</td>
+						<td>#e0115f</td>
+					</tr>
+					<tr>
+						<td style="background-color:#ff91a4">&nbsp;</td>
+						<td>$pinkSalmon</td>
+						<td>@pinkSalmon</td>
+						<td>#ff91a4</td>
 					</tr>
 
 <!-- Browns
@@ -813,7 +1180,175 @@
 						<td>@brownBrighter</td>
 						<td>#A34719</td>
 					</tr>
+					<tr>
+						<td style="background-color:#9f8170">&nbsp;</td>
+						<td>$brownBeaver</td>
+						<td>@brownBeaver</td>
+						<td>#9f8170</td>
+					</tr>
+					<tr>
+						<td style="background-color:#3d2b1f">&nbsp;</td>
+						<td>$brownBistre</td>
+						<td>@brownBistre</td>
+						<td>#3d2b1f</td>
+					</tr>
+					<tr>
+						<td style="background-color:#79443b">&nbsp;</td>
+						<td>$brownBole</td>
+						<td>@brownBole</td>
+						<td>#79443b</td>
+					</tr>
+					<tr>
+						<td style="background-color:#cd7f32">&nbsp;</td>
+						<td>$brownBronze</td>
+						<td>@brownBronze</td>
+						<td>#cd7f32</td>
+					</tr>
+					<tr>
+						<td style="background-color:#8a3324">&nbsp;</td>
+						<td>$brownBurnt</td>
+						<td>@brownBurnt</td>
+						<td>#8a3324</td>
+					</tr>
+					<tr>
+						<td style="background-color:#c19a6b">&nbsp;</td>
+						<td>$brownCamel</td>
+						<td>@brownCamel</td>
+						<td>#c19a6b</td>
+					</tr>
+					<tr>
+						<td style="background-color:#954535">&nbsp;</td>
+						<td>$brownChestnut</td>
+						<td>@brownChestnut</td>
+						<td>#954535</td>
+					</tr>
+					<tr>
+						<td style="background-color:#7b3f00">&nbsp;</td>
+						<td>$brownChocolate</td>
+						<td>@brownChocolate</td>
+						<td>#7b3f00</td>
+					</tr>
+					<tr>
+						<td style="background-color:#6f4e37">&nbsp;</td>
+						<td>$brownCoffee</td>
+						<td>@brownCoffee</td>
+						<td>#6f4e37</td>
+					</tr>
+					<tr>
+						<td style="background-color:#b87333">&nbsp;</td>
+						<td>$brownCopper</td>
+						<td>@brownCopper</td>
+						<td>#b87333</td>
+					</tr>
+					<tr>
+						<td style="background-color:#c04000">&nbsp;</td>
+						<td>$brownMahogany</td>
+						<td>@brownMahogany</td>
+						<td>#c04000</td>
+					</tr>																															
+					<tr>
+						<td style="background-color:#704214">&nbsp;</td>
+						<td>$brownSepia</td>
+						<td>@brownSepia</td>
+						<td>#704214</td>
+					</tr>
 
+<!-- Whites
+    ================================================== -->	
+
+					<tr>
+						<td id="whites" colspan="4"><b>Whites</b></td>
+					</tr>
+					<tr>
+						<td style="background-color:#f2f3f4;">&nbsp;</td>
+						<td>$whiteAntiflash</td>
+						<td>@whiteAntiflash</td>
+						<td>#f2f3f4</td>
+					</tr>
+					<tr>
+						<td style="background-color:#faebd7">&nbsp;</td>
+						<td>$whiteAntique</td>
+						<td>@whiteAntique</td>
+						<td>#faebd7</td>
+					</tr>
+					<tr>
+						<td style="background-color:#f5f5dc">&nbsp;</td>
+						<td>$whiteBeige</td>
+						<td>@whiteBeige</td>
+						<td>#f5f5dc</td>
+					</tr>
+					<tr>
+						<td style="background-color:#faf0be">&nbsp;</td>
+						<td>$whiteBlond</td>
+						<td>@whiteBlond</td>
+						<td>#faf0be</td>
+					</tr>
+					<tr>
+						<td style="background-color:#fff8dc">&nbsp;</td>
+						<td>$whiteCornsilk</td>
+						<td>@whiteCornsilk</td>
+						<td>#fff8dc</td>
+					</tr>
+					<tr>
+						<td style="background-color:#fff8e7">&nbsp;</td>
+						<td>$whiteCosmic</td>
+						<td>@whiteCosmic</td>
+						<td>#fff8e7</td>
+					</tr>
+					<tr>
+						<td style="background-color:#fffdd0">&nbsp;</td>
+						<td>$whiteCream</td>
+						<td>@whiteCream</td>
+						<td>#fffdd0</td>
+					</tr>
+					<tr>
+						<td style="background-color:#f0ead6">&nbsp;</td>
+						<td>$whiteEggshell</td>
+						<td>@whiteEggshell</td>
+						<td>#f0ead6</td>
+					</tr>
+					<tr>
+						<td style="background-color:#fffaf0">&nbsp;</td>
+						<td>$whiteFloral</td>
+						<td>@whiteFloral</td>
+						<td>#fffaf0</td>
+					</tr>
+					<tr>
+						<td style="background-color:#f0fff0">&nbsp;</td>
+						<td>$whiteHoneydew</td>
+						<td>@whiteHoneydew</td>
+						<td>#f0fff0</td>
+					</tr>					
+					<tr>
+						<td style="background-color:#f4f0ec">&nbsp;</td>
+						<td>$whiteIsabelline</td>
+						<td>@whiteIsabelline</td>
+						<td>#f4f0ec</td>
+					</tr>	
+					<tr>
+						<td style="background-color:#ffdead">&nbsp;</td>
+						<td>$whiteNavajo</td>
+						<td>@whiteNavajo</td>
+						<td>#ffdead</td>
+					</tr>
+					<tr>
+						<td style="background-color:#eae0c8">&nbsp;</td>
+						<td>$whitePearl</td>
+						<td>@whitePearl</td>
+						<td>#eae0c8</td>
+					</tr>
+					<tr>
+						<td style="background-color:#f3e5ab">&nbsp;</td>
+						<td>$whiteVanilla</td>
+						<td>@whiteVanilla</td>
+						<td>#f3e5ab</td>
+					</tr>
+					<tr>
+						<td style="background-color:#f5f5f5">&nbsp;</td>
+						<td>$whiteSmoke</td>
+						<td>@whiteSmoke</td>
+						<td>#f5f5f5</td>
+					</tr>
 				</table>			
 			</div>
 		</div>

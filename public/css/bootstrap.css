@@ -4491,17 +4491,21 @@ a.label:hover, a.badge:hover {
  * Built and Designed by Richard Bray
  *
  */
-/*
- * Default Colours
- */
-/*
- * Variations
- */
+::-moz-selection {
+  color: #fff;
+  text-shadow: none;
+  background: #778da8; }
+
+::selection {
+  color: #fff;
+  text-shadow: none;
+  background: #778da8; }
+
 body {
   background-color: #f2f3f4; }
 
 header {
-  margin-top: 120px;
+  margin-top: 80px;
   text-align: center; }
   header h1 {
     font-size: 100px;
@@ -4517,11 +4521,75 @@ header {
     opacity: 0.4; }
 
 hr {
-  border: 1px solid #ddd; }
+  border: 1px solid #ddd;
+  margin: 10px 0; }
 
 .slogan {
   margin-top: 12px;
   margin-bottom: 20px; }
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+  position: static; }
+
+.bs-docs-sidenav, .content {
+  margin-top: 10px; }
+
+.btn {
+  border: none;
+  text-shadow: none; }
+
+.btn-pink {
+  background-color: #b2248f;
+  background-image: -moz-linear-gradient(top, #b2248f, #b2248f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b2248f), to(#b2248f));
+  background-image: -webkit-linear-gradient(top, #b2248f, #b2248f);
+  background-image: -o-linear-gradient(top, #b2248f, #b2248f);
+  background-image: linear-gradient(to bottom, #b2248f, #b2248f);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFB2248F', endColorstr='#FFB2248F', GradientType=0);
+  color: white;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s; }
+  .btn-pink:hover {
+    background-color: #661452;
+    background-image: -moz-linear-gradient(top, #661452, #661452);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#661452), to(#661452));
+    background-image: -webkit-linear-gradient(top, #661452, #661452);
+    background-image: -o-linear-gradient(top, #661452, #661452);
+    background-image: linear-gradient(to bottom, #661452, #661452);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF661452', endColorstr='#FF661452', GradientType=0);
+    color: white; }
+
+.btn-primary {
+  background-color: #0064cd;
+  background-image: -moz-linear-gradient(top, #0064cd, #0064cd);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0064cd), to(#0064cd));
+  background-image: -webkit-linear-gradient(top, #0064cd, #0064cd);
+  background-image: -o-linear-gradient(top, #0064cd, #0064cd);
+  background-image: linear-gradient(to bottom, #0064cd, #0064cd);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0064CD', endColorstr='#FF0064CD', GradientType=0);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s; }
+  .btn-primary:hover {
+    background-color: #002966;
+    background-image: -moz-linear-gradient(top, #002966, #002966);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#002966), to(#002966));
+    background-image: -webkit-linear-gradient(top, #002966, #002966);
+    background-image: -o-linear-gradient(top, #002966, #002966);
+    background-image: linear-gradient(to bottom, #002966, #002966);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF002966', endColorstr='#FF002966', GradientType=0);
+    color: white; }
+
+.dl-links a {
+  margin-right: 10px;
+  padding-bottom: 10px; }
 
 .bs-docs-sidenav {
   width: 140px;

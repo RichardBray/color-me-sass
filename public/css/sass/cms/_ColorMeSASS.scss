@@ -5,10 +5,20 @@
  *
  */
 
-	@import "defaults";
-	@import "variations";
-	@import "bootstrap";
+	@import "reds";
+	@import "peaches";
+	@import "tans";
+	@import "oranges";
+	@import "ambers";
+	@import "yellows";
+	@import "limes";
+	@import "greens";
+	@import "turquoise";
+	@import "blues";
+	@import "purples";
+	@import "pinks";
+	@import "browns";
+	@import "whites";
+	@import "grays";
 
- //If you are using Twitter Bootstrap use this instead of _variables.scss to avoid clashing
-
-	@import "bootstrap"; 
+	@import "bootstrap"; //Colour varialbles from twitter bootstrap
