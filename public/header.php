@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Color Me SASS - Colour library for the css preprocessor SASS</title>
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="../css/bootstrap.css">
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -26,10 +26,10 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="">
-                <a href="/">Default</a>
+                <a href="/public">Default</a>
               </li>
               <li class="">
-                <a href="/public/bootsrtap">Bootstrap</a>
+                <a href="/public/bootstrap">Bootstrap</a>
               </li>
               <li class="">
                 <a href="">Usage</a>
