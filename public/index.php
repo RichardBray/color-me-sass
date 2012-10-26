@@ -13,11 +13,12 @@
           		<li><a href="#yellows"><i class="icon-chevron-right"></i>Yellows</a></li>
           		<li><a href="#limes"><i class="icon-chevron-right"></i>Limes</a></li>
           		<li><a href="#greens"><i class="icon-chevron-right"></i>Greens</a></li>
-          		<li><a href="#turquoises"><i class="icon-chevron-right"></i>Turquoises</a></li>
+          		<li><a href="#turquoise"><i class="icon-chevron-right"></i>Turquoises</a></li>
           		<li><a href="#blues"><i class="icon-chevron-right"></i>Blues</a></li>
           		<li><a href="#purples"><i class="icon-chevron-right"></i>Purples</a></li>
           		<li><a href="#pinks"><i class="icon-chevron-right"></i>Pinks</a></li>
           		<li><a href="#browns"><i class="icon-chevron-right"></i>Browns</a></li>
+          		<li><a href="#whites"><i class="icon-chevron-right"></i>Whites</a></li>
         	</ul>
     		</div>
     		<div class="span10 content">

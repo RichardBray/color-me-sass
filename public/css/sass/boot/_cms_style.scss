@@ -21,6 +21,7 @@ header{
 	h1{
 		font-size:100px;
 		letter-spacing: -10px;
+    margin-left:80px;
 		i{
 			font-family: $serifFontFamily;
 			font-weight: 100;
@@ -33,6 +34,12 @@ header{
 		font-weight: bold;
 		opacity: 0.4;
 	}
+  span{
+    font-size: 15px;
+    letter-spacing: 0;
+    font-weight: normal;
+    margin-left: 10px;
+  }
 }
 
 hr{
@@ -41,7 +48,7 @@ hr{
 }
 
 .slogan{
-	margin-top:12px;
+	margin-top:-5px;
 	margin-bottom:20px;
 }
 
@@ -56,6 +63,12 @@ hr{
 .btn{
   border:none;
   text-shadow:none;
+  @include gradient-vertical($grayLighter, $grayLighter);
+  &:hover{
+    background-position:0% 0%;
+    @include gradient-vertical($grayLight, $grayLight);
+    color:$white;
+  }
 }
 
 .btn-pink{
@@ -78,6 +91,7 @@ hr{
 }
 
 .dl-links{
+  margin-bottom: 25px;
   a{
     margin-right:10px;
     padding-bottom:10px;
@@ -98,6 +112,20 @@ hr{
     margin-top: 16px;
   }
 }
+
+.twitter-share-button{
+  float:right;
+}
+
+.whell{
+  margin-left:35px;
+}
+
+footer{
+  padding-bottom: 30px;
+}
+
+
 // Sidebar
 // --------------------------------------------------
 
@@ -118,7 +146,6 @@ hr{
 		}
 	}
 }
-
 // Colour Wheel
 // --------------------------------------------------
 
@@ -197,9 +224,9 @@ hr{
      	@include border-radius(30px);
      	background-color: $whiteAntiflash;
      	position: absolute;
-		z-index: 1;
-		margin-left: -4px;
-		margin-top: 1px;
+		  z-index: 1;
+      margin-top: 26px;
+      margin-left: -4px;
      }
 
 
