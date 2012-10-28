@@ -2,7 +2,8 @@ ColorMeSASS
 ===========
 
 Colour library for the css preprocessor SASS.
-Full site with colours, variable names and documentation [here](http://richbray.me/cms/).
+
+ [Full site with colours, variable names and documentation here](http://richbray.me/cms/).
 
 
 Usage
