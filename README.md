@@ -32,6 +32,7 @@ Now here's the fun part. If you want to use a colour all you need to do is type 
 
 The cool thing about CSS pre-processors is you can make the colour lighter or darker, desaturate or saturate colours, change the hue, or even mix two colours together and it will calculate the correct hexadecimal value and place it in the compiled CSS. Pretty neat right.
 
+
 **Lightness**
 
 		/*  LIGHTEN  */		
@@ -46,6 +47,7 @@ The cool thing about CSS pre-processors is you can make the colour lighter or da
 			background-color: darken($pinkCoral, 76%);
 		}
 
+
 **Saturation**
 
 		/*  DESATURATE  */
@@ -59,12 +61,14 @@ The cool thing about CSS pre-processors is you can make the colour lighter or da
 		body{
 			background-color: saturate($greenSea, 39%);
 		}
+
 **Hue**
 
 
 		body{
 			background-color: adjust_hue($purplePlum, 78); /* between 0 - 360 */
 		}
+
 
 **More than one adjustment**
 
@@ -81,6 +85,7 @@ The cool thing about CSS pre-processors is you can make the colour lighter or da
 			background-color: lighten(adjust_hue(desaturate($blueLighter, 8), 11), 0)
 		}
 
+
 **Mixing Colours**
 
 	
@@ -90,6 +95,7 @@ The cool thing about CSS pre-processors is you can make the colour lighter or da
 		body{
 			background-color: $cool_purple;
 		}
+
 
 The possibilities are pretty much endless. Have fun.
 Don't forget to hit me up on [twitter](https://twitter.com/Ceiga) if you end up using this for a site you work on.
