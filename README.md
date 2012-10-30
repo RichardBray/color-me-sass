@@ -44,6 +44,7 @@ The cool thing about CSS pre-processors is you can make the colour lighter or da
 			background-color: darken($pinkCoral, 76%);
 		}
 
+**** Saturation
 		/*  DESATURATE  */
 
 		body{
