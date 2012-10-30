@@ -70,7 +70,6 @@ The cool thing about CSS pre-processors is you can make the colour lighter or da
 
 
 		/*  HS (HUE & SATURATION)  */
-		
 
 		body{
 			background-color: adjust_hue(desaturate($brownBronze, 8), 11)
@@ -78,7 +77,6 @@ The cool thing about CSS pre-processors is you can make the colour lighter or da
 
 		/*  HSL (HUE, SATURATION & LIGHTNESS)  */
 		
-
 		body{
 			background-color: lighten(adjust_hue(desaturate($blueLighter, 8), 11), 0)
 		}
@@ -86,7 +84,6 @@ The cool thing about CSS pre-processors is you can make the colour lighter or da
 **Mixing Colours**
 
 	
-		/*  MIXING 2 COLOURS  */
 		
 		$cool_purple:  mix($red, $blue, 50%);
 
