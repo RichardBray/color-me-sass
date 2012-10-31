@@ -116,4 +116,4 @@ The work is provided “as is”, without warranty or support, express or implie
 Changelog
 ------------------------------
 
->**v 1.0**  Color Me SASS is born.
+>**v 1.0**        Color Me SASS is born.
