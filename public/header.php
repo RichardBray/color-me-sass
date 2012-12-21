@@ -2,14 +2,25 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8"/>
-	<title>Color Me SASS - Colour library for the css preprocessor SASS</title>
-	<link rel="stylesheet" href="css/cms.css">
+	<title>Color Me SASS - Colour library for css preprocessors SASS and LESS</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="author" content="Richard Bray">
+	<meta name="description" content="Color library for the CSS preprosessors SASS and LESS">
+	<link rel="stylesheet" href="http://richbray.me/css/cms.css">
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
+
+	 <style type="text/css">
+
+	 pre, code{
+	 	font-size: 14px;
+	 }
+
+	 </style>
 </head>
 <body>
 
@@ -26,13 +37,13 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="">
-                <a href="/public">Default</a>
+                <a href="/cms">Home</a>
               </li>
               <li class="">
-                <a href="/public/bootstrap">Bootstrap</a>
+                <a href="/cms/bootstrap">Bootstrap</a>
               </li>
               <li class="">
-                <a href="/public/usage">Usage</a>
+                <a href="/cms/usage">Usage</a>
               </li>
             </ul>
           </div>
@@ -68,8 +79,8 @@
 					<p>Colour library for SASS and LESS</p>
 			</div>
 			<div class="row dl-links">
-				<a href="CMS_sass.zip" class="btn btn-large btn-pink">Download for SASS</a> 
-				<a href="CMS_less.zip" class="btn btn-large btn-primary">Download for LESS</a>
+				<a href="http://richbray.me/cms/CMS_sass.zip" class="btn btn-large btn-pink">Download for SASS</a> 
+				<a href="http://richbray.me/cms/CMS_less.zip" class="btn btn-large btn-primary">Download for LESS</a>
 				<a href="https://github.com/RichardBray/ColorMeSASS" target="_blank" class="btn btn-large">Fork on Github</a>
 			</div>
 		</header>
