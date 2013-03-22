@@ -18,7 +18,7 @@ One thing you need to know if you're new to this, SASS uses Ruby on Rails and LE
 
 ###2. Setting Up
 
-If your farmilliar with SASS or LESS this should be a walk in the park. Make sure the main _ColorMeSASS.scss file is imported at the very bottom so it will overwrite any similar colour variables you have.
+If your farmilliar with SASS or LESS this should be a walk in the park. Make sure the main `_color-me-sass.scss` file is imported at the very bottom so it will overwrite any similar colour variables you have.
 
 
 ###3. Using the Colours
