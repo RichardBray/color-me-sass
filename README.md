@@ -117,3 +117,5 @@ Changelog
 ------------------------------
 
 **v 1.0**        Color Me SASS is born.
+
+**v 1.1**        Added a few brand colours from (http://brandcolors.net/)[http://brandcolors.net/] to the library
