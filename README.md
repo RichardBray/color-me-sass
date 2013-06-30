@@ -121,3 +121,5 @@ Changelog
 **v 1.1**        Added a few brand colours from [http://brandcolors.net/](http://brandcolors.net/) to the library
 
 **v 1.2**        25/04/13 Added some colours from [preboot](http://getpreboot.com/#variables-colors)
+
+**v 1.3**        25/04/13 Updated with over 90 dulux inspired colours
