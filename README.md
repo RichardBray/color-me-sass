@@ -122,4 +122,4 @@ Changelog
 
 **v 1.2**        25/04/13 Added some colours from [preboot](http://getpreboot.com/#variables-colors)
 
-**v 1.3**        25/04/13 Updated with over 90 dulux inspired colours
+**v 1.3**        04/06/13 Updated with over 90 dulux inspired colours
