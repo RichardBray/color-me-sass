@@ -1,5 +1,6 @@
 ColorMeSASS
 ===========
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/RichardBray/color-me-sass/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 Colour library for the css preprocessor SASS.
 
