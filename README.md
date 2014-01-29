@@ -124,3 +124,7 @@ Changelog
 **v 1.2**        25/04/13 Added some colours from [preboot](http://getpreboot.com/#variables-colors)
 
 **v 1.3**        04/06/13 Updated with over 90 dulux inspired colours
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/RichardBray/color-me-sass/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
