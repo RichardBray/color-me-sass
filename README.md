@@ -77,13 +77,13 @@ The cool thing about CSS pre-processors is you can make the colour lighter or da
 		/*  HS (HUE & SATURATION)  */
 
 		body{
-			background-color: adjust_hue(desaturate($brownBronze, 8), 11)
+			background-color: adjust_color($brownBronze, $hue: 11%, $saturation: -8%);
 		}
 
 		/*  HSL (HUE, SATURATION & LIGHTNESS)  */
 		
 		body{
-			background-color: lighten(adjust_hue(desaturate($blueLighter, 8), 11), 0)
+			background-color: adjust_color($bllueLighter, $lightness: -10%, $hue: 11%, $saturation: -8%);
 		}
 
 
