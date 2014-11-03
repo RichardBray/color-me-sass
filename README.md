@@ -14,7 +14,7 @@ Usage
 
 I'm not going to go into detail into what css preprocessors are or which one is better, both [SASS](http://sass-lang.com/) and [LESS](http://lesscss.org/) are both pretty cool and I believe every web designer should at least have a play with one of them.
 
-One thing you need to know if you're new to this, SASS uses Ruby on Rails and LESS uses Javascript. That should help with your choice.
+One thing you need to know if you're new to this, SASS uses Ruby and LESS uses JavaScript. That should help with your choice.
 
 
 ###2. Setting Up
