@@ -1,8 +1,8 @@
-ColorMeSASS
+ColorMeSass
 ===========
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/RichardBray/color-me-sass/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-Colour library for the css preprocessor SASS.
+Colour library for the css preprocessor Sass.
 
  [Full site with colours, variable names and documentation here](http://richbray.me/cms/).
 
@@ -12,14 +12,14 @@ Usage
 
 ###1. CSS Preprocessors
 
-I'm not going to go into detail into what css preprocessors are or which one is better, both [SASS](http://sass-lang.com/) and [LESS](http://lesscss.org/) are both pretty cool and I believe every web designer should at least have a play with one of them.
+I'm not going to go into detail into what css preprocessors are or which one is better, both [Sass](http://sass-lang.com/) and [LESS](http://lesscss.org/) are both pretty cool and I believe every web designer should at least have a play with one of them.
 
-One thing you need to know if you're new to this, SASS uses Ruby and LESS uses JavaScript. That should help with your choice.
+One thing you need to know if you're new to this, Sass uses Ruby and LESS uses JavaScript. That should help with your choice.
 
 
 ###2. Setting Up
 
-If your farmilliar with SASS or LESS this should be a walk in the park. Make sure the main `_color-me-sass.scss` file is imported at the very bottom so it will overwrite any similar colour variables you have.
+If your farmilliar with Sass or LESS this should be a walk in the park. Make sure the main `_color-me-sass.scss` file is imported at the very bottom so it will overwrite any similar colour variables you have.
 
 
 ###3. Using the Colours
@@ -104,7 +104,7 @@ Don't forget to hit me up on [twitter](https://twitter.com/Ceiga) if you end up 
 
 Liscense
 ------------------------------
-Color Me SASS is licensed under the [☺ license.](http://licence.visualidiot.com/)
+Color Me Sass is licensed under the [☺ license.](http://licence.visualidiot.com/)
 
 You, the licensee, are hereby granted free usage in both personal and commerical environments, without any obligation of attribution or payment (monetary or otherwise). The licensee is free to use, copy, modify, publish, distribute, sublicence, and/or merchandise the work, subject to the licensee inflecting a positive message unto someone. This includes (but is not limited to): smiling, being nice, saying “thank you”, assisting other persons, or any similar actions percolating the given concept.
 
@@ -117,7 +117,7 @@ The work is provided “as is”, without warranty or support, express or implie
 Changelog
 ------------------------------
 
-**v 1.0**        Color Me SASS is born.
+**v 1.0**        Color Me Sass is born.
 
 **v 1.1**        Added a few brand colours from [http://brandcolors.net/](http://brandcolors.net/) to the library
 
