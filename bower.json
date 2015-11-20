@@ -1,0 +1,23 @@
+{
+  "name": "color-me-sass",
+  "homepage": "http://richbray.me/cms/",
+  "authors": [
+    "Richard Bray <richardobray@yahoo.co.uk>"
+  ],
+  "description": "Colour library for the css preprocessor Sass.",
+  "main": "_color-me-sass.scss",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "color"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
