@@ -19,6 +19,8 @@ One thing you need to know if you're new to this, Sass uses Ruby and LESS uses J
 
 ###2. Setting Up
 
+Use `npm install color-me-sass` or `bower install color-me-sass` to get a copy of the package. Alternatively [download](http://richbray.me/cms/color-me-sass.zip) a copy.
+
 If your farmilliar with Sass or LESS this should be a walk in the park. Make sure the main `_color-me-sass.scss` file is imported at the very bottom so it will overwrite any similar colour variables you have.
 
 
@@ -81,7 +83,7 @@ The cool thing about CSS pre-processors is you can make the colour lighter or da
 		}
 
 		/*  HSL (HUE, SATURATION & LIGHTNESS)  */
-		
+
 		body{
 			background-color: adjust_color($blueLighter, $lightness: -10%, $hue: 11%, $saturation: -8%);
 		}
@@ -89,8 +91,8 @@ The cool thing about CSS pre-processors is you can make the colour lighter or da
 
 **Mixing Colours**
 
-	
-		
+
+
 		$cool_purple:  mix($red, $blue, 50%);
 
 		body{
@@ -124,3 +126,5 @@ Changelog
 **v 1.2**        25/04/13 Added some colours from [preboot](http://getpreboot.com/#variables-colors)
 
 **v 1.3**        04/06/13 Updated with over 90 dulux inspired colours
+
+**v 1.4**        03/03/16 Added support for [NPM](https://www.npmjs.com/) packaging.
