@@ -1,0 +1,28 @@
+{
+  "name": "color-me-sass",
+  "version": "1.4.0",
+  "description": "Colour library for the css preprocessor Sass.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardBray/color-me-sass.git"
+  },
+  "keywords": [
+    "color",
+    "sass",
+    "variables",
+    "palette",
+    "brand",
+    "dulux",
+    "bootstrap"
+  ],
+  "author": "Richard Bray <richardobray@yahoo.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RichardBray/color-me-sass/issues"
+  },
+  "homepage": "http://richbray.me/cms/"
+}
